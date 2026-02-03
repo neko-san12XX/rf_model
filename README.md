@@ -26,7 +26,7 @@ Workflow
 - Normalize and preprocess expression values.
 - Model Training
 - Train Random Forest classifier on labeled samples.
-- Tune hyperparameters (n_estimators, max_depth, etc.).
+- use normalized counts, phenodata and the DEGs from particular contrast
 - Feature Selection
 - Extract feature importance scores from the trained model.
 - Rank genes by importance.
